@@ -1,0 +1,35 @@
+@import '../../../styles/utils/vars';
+
+.button {
+  height: 40px;
+  width: 176px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+
+  background-color: $color-btn-primary;
+  border: none;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+
+  &--medium {
+    height: 40px;
+    width: 40px;
+  }
+
+  &--small {
+    width: 32px;
+    height: 32px;
+  }
+}

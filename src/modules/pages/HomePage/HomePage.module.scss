@@ -1,0 +1,50 @@
+.titleHome{
+  color: #ffffff;
+margin-bottom: 56px;}
+
+
+
+
+/*shopCategory*/
+
+.shopCategory {
+  margin-bottom: 81px;
+
+}
+
+.shopCategory h1 {
+  font-size: 2em;
+  margin-bottom: 24px;
+  color: #ffffff;
+
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.category {
+  height: 443px;
+  width: 368px;
+  color: inherit;  
+}
+
+.categoryImg {
+  width: 368px;
+  height: 368px;
+  margin-bottom: 24px;
+
+}
+
+.categoryTitle {
+  font-size: 1.3em;
+  color: #F1F2F9;
+  margin-bottom:  4px;
+}
+
+.category p {
+  color: #89939A;
+  margin: 0;
+}

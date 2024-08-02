@@ -1,0 +1,54 @@
+  @import '../../../styles/utils/vars';
+
+.catalog {
+  // padding: 20px;
+  display: flex;
+   align-items: center;
+     justify-content: center;
+     margin-bottom: 80px;
+}
+
+.catalogTitle {
+  text-align: left;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.sliderBody {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.catalogList {
+  display: flex;
+gap: 16px;
+margin: 0;
+padding: 0;
+}
+
+.productItem {
+  list-style: none;
+}
+
+.buttonsContainer{
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  display: flex;
+  gap: 16px;
+}
+
+.sliderButtons  {
+  width: 32px;
+  height: 32px;
+  background-color:#0F1121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ border: 2px solid #323542;
+}
+.sliderButtons:hover {
+    background-color: #323542;
+}
+

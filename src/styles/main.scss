@@ -1,0 +1,22 @@
+@import 'utils/typography';
+@import 'blocks/heading';
+@import 'blocks/icon';
+@import 'blocks/catalog';
+@import 'utils/vars';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Mont';
+  background-color: $color-site;
+}
+
+
+
+body {
+  margin: 0;
+}

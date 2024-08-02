@@ -1,0 +1,33 @@
+
+.filtersCatalog {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+margin: 0 0 24px;
+}
+
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px; 
+  color: #ffffff;
+}
+
+.filter span {
+  font-size: 10px;
+  margin-bottom: 5px;
+  color: #89939A;
+}
+
+.filter select {
+  background-color: #282846; 
+  color: #ffffff; 
+  padding: 10px 12px;
+  font-size: 14px;
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
